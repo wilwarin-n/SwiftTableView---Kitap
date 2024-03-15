@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBFEE8A42BA424A2000C2CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8A32BA424A2000C2CDA /* AppDelegate.swift */; };
+		DBFEE8A62BA424A2000C2CDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8A52BA424A2000C2CDA /* SceneDelegate.swift */; };
+		DBFEE8A82BA424A2000C2CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8A72BA424A2000C2CDA /* ViewController.swift */; };
+		DBFEE8AB2BA424A2000C2CDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBFEE8AA2BA424A2000C2CDA /* Base */; };
+		DBFEE8AD2BA424A6000C2CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFEE8AC2BA424A6000C2CDA /* Assets.xcassets */; };
+		DBFEE8B02BA424A6000C2CDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBFEE8AF2BA424A6000C2CDA /* Base */; };
+		DBFEE8BB2BA424A7000C2CDA /* SwiftTableView___KitapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8BA2BA424A7000C2CDA /* SwiftTableView___KitapTests.swift */; };
+		DBFEE8C52BA424A7000C2CDA /* SwiftTableView___KitapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8C42BA424A7000C2CDA /* SwiftTableView___KitapUITests.swift */; };
+		DBFEE8C72BA424A7000C2CDA /* SwiftTableView___KitapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8C62BA424A7000C2CDA /* SwiftTableView___KitapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBFEE8B72BA424A7000C2CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBFEE8982BA424A2000C2CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFEE89F2BA424A2000C2CDA;
+			remoteInfo = "SwiftTableView - Kitap";
+		};
+		DBFEE8C12BA424A7000C2CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBFEE8982BA424A2000C2CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFEE89F2BA424A2000C2CDA;
+			remoteInfo = "SwiftTableView - Kitap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBFEE8A02BA424A2000C2CDA /* SwiftTableView - Kitap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftTableView - Kitap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFEE8A32BA424A2000C2CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBFEE8A52BA424A2000C2CDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBFEE8A72BA424A2000C2CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBFEE8AA2BA424A2000C2CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBFEE8AC2BA424A6000C2CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBFEE8AF2BA424A6000C2CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBFEE8B12BA424A6000C2CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFEE8B62BA424A7000C2CDA /* SwiftTableView - KitapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftTableView - KitapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFEE8BA2BA424A7000C2CDA /* SwiftTableView___KitapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftTableView___KitapTests.swift"; sourceTree = "<group>"; };
+		DBFEE8C02BA424A7000C2CDA /* SwiftTableView - KitapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftTableView - KitapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFEE8C42BA424A7000C2CDA /* SwiftTableView___KitapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftTableView___KitapUITests.swift"; sourceTree = "<group>"; };
+		DBFEE8C62BA424A7000C2CDA /* SwiftTableView___KitapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftTableView___KitapUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFEE89D2BA424A2000C2CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFEE8B32BA424A7000C2CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFEE8BD2BA424A7000C2CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBFEE8972BA424A2000C2CDA = {
+			isa = PBXGroup;
+			children = (
+				DBFEE8A22BA424A2000C2CDA /* SwiftTableView - Kitap */,
+				DBFEE8B92BA424A7000C2CDA /* SwiftTableView - KitapTests */,
+				DBFEE8C32BA424A7000C2CDA /* SwiftTableView - KitapUITests */,
+				DBFEE8A12BA424A2000C2CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFEE8A12BA424A2000C2CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFEE8A02BA424A2000C2CDA /* SwiftTableView - Kitap.app */,
+				DBFEE8B62BA424A7000C2CDA /* SwiftTableView - KitapTests.xctest */,
+				DBFEE8C02BA424A7000C2CDA /* SwiftTableView - KitapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFEE8A22BA424A2000C2CDA /* SwiftTableView - Kitap */ = {
+			isa = PBXGroup;
+			children = (
+				DBFEE8A32BA424A2000C2CDA /* AppDelegate.swift */,
+				DBFEE8A52BA424A2000C2CDA /* SceneDelegate.swift */,
+				DBFEE8A72BA424A2000C2CDA /* ViewController.swift */,
+				DBFEE8A92BA424A2000C2CDA /* Main.storyboard */,
+				DBFEE8AC2BA424A6000C2CDA /* Assets.xcassets */,
+				DBFEE8AE2BA424A6000C2CDA /* LaunchScreen.storyboard */,
+				DBFEE8B12BA424A6000C2CDA /* Info.plist */,
+			);
+			path = "SwiftTableView - Kitap";
+			sourceTree = "<group>";
+		};
+		DBFEE8B92BA424A7000C2CDA /* SwiftTableView - KitapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBFEE8BA2BA424A7000C2CDA /* SwiftTableView___KitapTests.swift */,
+			);
+			path = "SwiftTableView - KitapTests";
+			sourceTree = "<group>";
+		};
+		DBFEE8C32BA424A7000C2CDA /* SwiftTableView - KitapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBFEE8C42BA424A7000C2CDA /* SwiftTableView___KitapUITests.swift */,
+				DBFEE8C62BA424A7000C2CDA /* SwiftTableView___KitapUITestsLaunchTests.swift */,
+			);
+			path = "SwiftTableView - KitapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFEE89F2BA424A2000C2CDA /* SwiftTableView - Kitap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFEE8CA2BA424A7000C2CDA /* Build configuration list for PBXNativeTarget "SwiftTableView - Kitap" */;
+			buildPhases = (
+				DBFEE89C2BA424A2000C2CDA /* Sources */,
+				DBFEE89D2BA424A2000C2CDA /* Frameworks */,
+				DBFEE89E2BA424A2000C2CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftTableView - Kitap";
+			productName = "SwiftTableView - Kitap";
+			productReference = DBFEE8A02BA424A2000C2CDA /* SwiftTableView - Kitap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBFEE8B52BA424A7000C2CDA /* SwiftTableView - KitapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFEE8CD2BA424A7000C2CDA /* Build configuration list for PBXNativeTarget "SwiftTableView - KitapTests" */;
+			buildPhases = (
+				DBFEE8B22BA424A7000C2CDA /* Sources */,
+				DBFEE8B32BA424A7000C2CDA /* Frameworks */,
+				DBFEE8B42BA424A7000C2CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBFEE8B82BA424A7000C2CDA /* PBXTargetDependency */,
+			);
+			name = "SwiftTableView - KitapTests";
+			productName = "SwiftTableView - KitapTests";
+			productReference = DBFEE8B62BA424A7000C2CDA /* SwiftTableView - KitapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBFEE8BF2BA424A7000C2CDA /* SwiftTableView - KitapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFEE8D02BA424A7000C2CDA /* Build configuration list for PBXNativeTarget "SwiftTableView - KitapUITests" */;
+			buildPhases = (
+				DBFEE8BC2BA424A7000C2CDA /* Sources */,
+				DBFEE8BD2BA424A7000C2CDA /* Frameworks */,
+				DBFEE8BE2BA424A7000C2CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBFEE8C22BA424A7000C2CDA /* PBXTargetDependency */,
+			);
+			name = "SwiftTableView - KitapUITests";
+			productName = "SwiftTableView - KitapUITests";
+			productReference = DBFEE8C02BA424A7000C2CDA /* SwiftTableView - KitapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFEE8982BA424A2000C2CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DBFEE89F2BA424A2000C2CDA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DBFEE8B52BA424A7000C2CDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DBFEE89F2BA424A2000C2CDA;
+					};
+					DBFEE8BF2BA424A7000C2CDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DBFEE89F2BA424A2000C2CDA;
+					};
+				};
+			};
+			buildConfigurationList = DBFEE89B2BA424A2000C2CDA /* Build configuration list for PBXProject "SwiftTableView - Kitap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBFEE8972BA424A2000C2CDA;
+			productRefGroup = DBFEE8A12BA424A2000C2CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFEE89F2BA424A2000C2CDA /* SwiftTableView - Kitap */,
+				DBFEE8B52BA424A7000C2CDA /* SwiftTableView - KitapTests */,
+				DBFEE8BF2BA424A7000C2CDA /* SwiftTableView - KitapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBFEE89E2BA424A2000C2CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFEE8AD2BA424A6000C2CDA /* Assets.xcassets in Resources */,
+				DBFEE8B02BA424A6000C2CDA /* Base in Resources */,
+				DBFEE8AB2BA424A2000C2CDA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFEE8B42BA424A7000C2CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFEE8BE2BA424A7000C2CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFEE89C2BA424A2000C2CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFEE8A82BA424A2000C2CDA /* ViewController.swift in Sources */,
+				DBFEE8A42BA424A2000C2CDA /* AppDelegate.swift in Sources */,
+				DBFEE8A62BA424A2000C2CDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFEE8B22BA424A7000C2CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFEE8BB2BA424A7000C2CDA /* SwiftTableView___KitapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFEE8BC2BA424A7000C2CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFEE8C72BA424A7000C2CDA /* SwiftTableView___KitapUITestsLaunchTests.swift in Sources */,
+				DBFEE8C52BA424A7000C2CDA /* SwiftTableView___KitapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBFEE8B82BA424A7000C2CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBFEE89F2BA424A2000C2CDA /* SwiftTableView - Kitap */;
+			targetProxy = DBFEE8B72BA424A7000C2CDA /* PBXContainerItemProxy */;
+		};
+		DBFEE8C22BA424A7000C2CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBFEE89F2BA424A2000C2CDA /* SwiftTableView - Kitap */;
+			targetProxy = DBFEE8C12BA424A7000C2CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBFEE8A92BA424A2000C2CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFEE8AA2BA424A2000C2CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBFEE8AE2BA424A6000C2CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFEE8AF2BA424A6000C2CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBFEE8C82BA424A7000C2CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBFEE8C92BA424A7000C2CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBFEE8CB2BA424A7000C2CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVK8F6Q98H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftTableView - Kitap/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rumeysakutlu.SwiftTableView---Kitap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBFEE8CC2BA424A7000C2CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVK8F6Q98H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftTableView - Kitap/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rumeysakutlu.SwiftTableView---Kitap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBFEE8CE2BA424A7000C2CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVK8F6Q98H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rumeysakutlu.SwiftTableView---KitapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTableView - Kitap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTableView - Kitap";
+			};
+			name = Debug;
+		};
+		DBFEE8CF2BA424A7000C2CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVK8F6Q98H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rumeysakutlu.SwiftTableView---KitapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTableView - Kitap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTableView - Kitap";
+			};
+			name = Release;
+		};
+		DBFEE8D12BA424A7000C2CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVK8F6Q98H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rumeysakutlu.SwiftTableView---KitapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftTableView - Kitap";
+			};
+			name = Debug;
+		};
+		DBFEE8D22BA424A7000C2CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVK8F6Q98H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rumeysakutlu.SwiftTableView---KitapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftTableView - Kitap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFEE89B2BA424A2000C2CDA /* Build configuration list for PBXProject "SwiftTableView - Kitap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFEE8C82BA424A7000C2CDA /* Debug */,
+				DBFEE8C92BA424A7000C2CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFEE8CA2BA424A7000C2CDA /* Build configuration list for PBXNativeTarget "SwiftTableView - Kitap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFEE8CB2BA424A7000C2CDA /* Debug */,
+				DBFEE8CC2BA424A7000C2CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFEE8CD2BA424A7000C2CDA /* Build configuration list for PBXNativeTarget "SwiftTableView - KitapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFEE8CE2BA424A7000C2CDA /* Debug */,
+				DBFEE8CF2BA424A7000C2CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFEE8D02BA424A7000C2CDA /* Build configuration list for PBXNativeTarget "SwiftTableView - KitapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFEE8D12BA424A7000C2CDA /* Debug */,
+				DBFEE8D22BA424A7000C2CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFEE8982BA424A2000C2CDA /* Project object */;
+}
