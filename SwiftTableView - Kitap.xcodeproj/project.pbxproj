@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBC83CA12BA8B1DB00D8FF66 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83CA02BA8B1DB00D8FF66 /* SecondViewController.swift */; };
 		DBFEE8A42BA424A2000C2CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8A32BA424A2000C2CDA /* AppDelegate.swift */; };
 		DBFEE8A62BA424A2000C2CDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8A52BA424A2000C2CDA /* SceneDelegate.swift */; };
 		DBFEE8A82BA424A2000C2CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEE8A72BA424A2000C2CDA /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBC83CA02BA8B1DB00D8FF66 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DBFEE8A02BA424A2000C2CDA /* SwiftTableView - Kitap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftTableView - Kitap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFEE8A32BA424A2000C2CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBFEE8A52BA424A2000C2CDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				DBFEE8A52BA424A2000C2CDA /* SceneDelegate.swift */,
 				DBFEE8A72BA424A2000C2CDA /* ViewController.swift */,
 				DBFEE8A92BA424A2000C2CDA /* Main.storyboard */,
+				DBC83CA02BA8B1DB00D8FF66 /* SecondViewController.swift */,
 				DBFEE8AC2BA424A6000C2CDA /* Assets.xcassets */,
 				DBFEE8AE2BA424A6000C2CDA /* LaunchScreen.storyboard */,
 				DBFEE8B12BA424A6000C2CDA /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC83CA12BA8B1DB00D8FF66 /* SecondViewController.swift in Sources */,
 				DBFEE8A82BA424A2000C2CDA /* ViewController.swift in Sources */,
 				DBFEE8A42BA424A2000C2CDA /* AppDelegate.swift in Sources */,
 				DBFEE8A62BA424A2000C2CDA /* SceneDelegate.swift in Sources */,
