@@ -14,6 +14,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var charactersName = [String]()
     var charactersImagesName = [String]()
     
+    var selectedName = ""
+    var selectedImage = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,6 +28,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         charactersName.append("Hu Tao")
         charactersName.append("Ganyu")
         charactersName.append("Nahida")
+        
+        charactersImagesName.append("traveler")
+        charactersImagesName.append("paimon")
+        charactersImagesName.append("hu tao")
+        charactersImagesName.append("ganyu")
+        charactersImagesName.append("nahida")
         
     }
     
@@ -44,7 +53,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
         }
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedName = charactersName[indexPath.row]
+        selectedImage = charactersImagesName[indexPath.row]
+        performSegue(withIdentifier: "toSecondVC", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toSecondVC" {
+            let destinationVC = segue.destination as! SecondViewController
+            destinationVC.selectName = selectedName
+            destinationVC.selectImage = selectedImage
+            
+        }
+    }
 
 }
 
